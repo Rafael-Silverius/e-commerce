@@ -61,7 +61,7 @@ src/
 └── main.jsx
 
 ```
-🔐 Authentication
+## 🔐 Authentication
 
 The application includes a basic authentication system using localStorage.
 
@@ -74,7 +74,7 @@ Stay logged in after refreshing the page
 
 Note: Authentication is implemented for demonstration purposes. This project does not use a production backend or secure password storage.
 
-🛒 Shopping Cart
+## 🛒 Shopping Cart
 
 Users can:
 
@@ -87,7 +87,7 @@ View the final total
 
 Cart information is stored locally using localStorage.
 
-📱 Responsive Design
+## 📱 Responsive Design
 
 The application is responsive and adapts to:
 
@@ -96,7 +96,7 @@ Laptop
 Tablet
 Mobile
 
-🎯 What I Practiced
+## 🎯 What I Practiced
 
 This project helped me practice:
 
@@ -111,7 +111,7 @@ LocalStorage
 Shopping cart functionality
 Responsive CSS
 Reusable UI components
-🔮 Future Improvements
+### 🔮 Future Improvements
  Connect to a real backend
  Add a database
  Implement secure authentication
