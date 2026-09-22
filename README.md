@@ -1,16 +1,57 @@
-# React + Vite
+# 🛍️ Shopify - React E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce web application built with React.  
+The project includes product browsing, product details, authentication, shopping cart functionality, and a checkout page.
 
-Currently, two official plugins are available:
+This project was created as a portfolio project to practice building a complete React application with reusable components, routing, state management, and responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🏠 Home page with product listing
+- 🛍️ Product cards and product details
+- 🔎 Product information and pricing
+- 🛒 Shopping cart
+- ➕ Increase product quantity
+- ➖ Decrease product quantity
+- 🗑️ Remove products from cart
+- 💳 Checkout page
+- 🔐 User authentication
+- 📝 Login and Sign Up
+- 🚪 Logout functionality
+- 💾 User and cart data stored using `localStorage`
+- 📱 Fully responsive design
+- 🧩 Reusable React components
+- 🧭 Client-side routing with React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies
 
-## Expanding the ESLint configuration
+- **React**
+- **JavaScript (ES6+)**
+- **React Router**
+- **React Hook Form**
+- **CSS3**
+- **Vite**
+- **LocalStorage**
+- **HTML5**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   └── Navbar.jsx
+│
+├── context/
+│   ├── AuthContext.jsx
+│   ├── AuthProvider.jsx
+│   └── useAuth.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Auth.jsx
+│   ├── ProductDetails.jsx
+│   └── Checkout.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
