@@ -67,10 +67,10 @@ The application includes a basic authentication system using localStorage.
 
 Users can:
 
-Create an account
-Log in
-Log out
-Stay logged in after refreshing the page
+- Create an account
+- Log in
+- Log out
+- Stay logged in after refreshing the page
 
 Note: Authentication is implemented for demonstration purposes. This project does not use a production backend or secure password storage.
 
@@ -78,12 +78,12 @@ Note: Authentication is implemented for demonstration purposes. This project doe
 
 Users can:
 
-Add products to the cart
-Increase/decrease quantities
-Remove products
-View item totals
-View the order subtotal
-View the final total
+- Add products to the cart
+- Increase/decrease quantities
+- Remove products
+- View item totals
+- View the order subtotal
+- View the final total
 
 Cart information is stored locally using localStorage.
 
@@ -91,39 +91,41 @@ Cart information is stored locally using localStorage.
 
 The application is responsive and adapts to:
 
-Desktop
-Laptop
-Tablet
-Mobile
+- Desktop
+- Laptop
+- Tablet
+- Mobile
 
 ## 🎯 What I Practiced
 
 This project helped me practice:
 
-React component architecture
-React Hooks
-Context API
-React Router
-React Hook Form
-Authentication logic
-State management
-LocalStorage
-Shopping cart functionality
-Responsive CSS
-Reusable UI components
-### 🔮 Future Improvements
- Connect to a real backend
- Add a database
- Implement secure authentication
- Add product search
- Add product filtering and sorting
- Add product categories
- Add order history
- Add user profiles
- Add payment integration
- Add admin dashboard
- Deploy a production backend
-👨‍💻 Author
+- React component architecture
+- React Hooks
+- Context API
+- React Router
+- React Hook Form
+- Authentication logic
+- State management
+- LocalStorage
+- Shopping cart functionality
+- Responsive CSS
+- Reusable UI components
+  
+## 🔮 Future Improvements
+- Connect to a real backend
+- Add a database
+- Implement secure authentication
+- Add product search
+- Add product filtering and sorting
+- Add product categories
+- Add order history
+- Add user profiles
+- Add payment integration
+- Add admin dashboard
+- Deploy a production backend
+
+##👨‍💻 Author
 
 Rafael Walder
 
