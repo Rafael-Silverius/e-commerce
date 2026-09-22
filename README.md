@@ -1,9 +1,13 @@
 # 🛍️ Shopify - React E-Commerce App
 
 A modern and responsive e-commerce web application built with React.  
+
+🔗 **Live Demo:** https://e-commerce-tawny-three-46.vercel.app/
+
 The project includes product browsing, product details, authentication, shopping cart functionality, and a checkout page.
 
 This project was created as a portfolio project to practice building a complete React application with reusable components, routing, state management, and responsive UI.
+
 
 ## 🚀 Features
 
