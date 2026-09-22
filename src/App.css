@@ -21,6 +21,7 @@
   height: 100%;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .navbar-brand {
@@ -35,6 +36,9 @@
   align-items: center;
   gap: 2rem;
   font-size: 18px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .navbar-link {
@@ -62,6 +66,16 @@
 
 .navbar-auth-links button:hover {
   background-color: #1d4ed8;
+}
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.navbar-user span {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /* Mobile */
