@@ -125,7 +125,7 @@ This project helped me practice:
 - Add admin dashboard
 - Deploy a production backend
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Rafael Walder
 
